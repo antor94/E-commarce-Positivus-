@@ -37,10 +37,24 @@ const Contactus = () => {
                     <div>
 
                         <p className='text-[16px] font-normal font-main  text-black'>Name</p>
-                        <div>
-
-                        <input type="text" />
+                        <div className='w-[556px] pt-[5px] border rounded-[14px]'>
+                        <input className='py-[18px] pl-[30px] text-[18px] font-normal font-main text-[#898989] w-[90%] border-none outline-none' type="text" placeholder='Name' />
                         </div>
+
+                        
+                        <p className='text-[16px] font-normal font-main  text-black'>Email*</p>
+                        <div className='w-[556px] pt-[5px] border rounded-[14px]'>
+                        <input className='py-[18px] pl-[30px] text-[18px] font-normal font-main text-[#898989] w-[90%] border-none outline-none' type="text" placeholder='Email' />
+                        </div>
+
+
+
+                        <p className='text-[16px] font-normal font-main  text-black'>Message*</p>
+                        <textarea className='w-[556px] border rounded-[14px] text-[18px] font-normal font-main text-[#898989]' placeholder='Message'></textarea>
+                       
+
+
+                        
                     
                     </div>
 
