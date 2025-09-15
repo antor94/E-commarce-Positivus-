@@ -6,7 +6,7 @@ const Contactus = () => {
   return (
     <>
 
-    <section id='contact'>
+    <section id='contact' className=''>
         <div className="container">
             {/* ------------ commonHead */}
 
@@ -14,7 +14,7 @@ const Contactus = () => {
             <CommonHead commonh2={'Contact Us'} />
             <div className='w-[330px]'><CommonHead commonp={'Connect with Us: Lets Discuss Your Digital Marketing Needs'} /></div>
             </div>
-            <div id='contact-id' className='bg-[#F3F3F3] rounded-[45px]'>
+            <div id='contact-row' className='bg-[#F3F3F3] pb-[80px] rounded-[45px]'>
 
                 {/* -------------- left-side */}
 
@@ -37,26 +37,34 @@ const Contactus = () => {
                     <div>
 
                         <p className='text-[16px] font-normal font-main  text-black'>Name</p>
-                        <div className='w-[556px] pt-[5px] border rounded-[14px]'>
-                        <input className='py-[18px] pl-[30px] text-[18px] font-normal font-main text-[#898989] w-[90%] border-none outline-none' type="text" placeholder='Name' />
+                        <div className='w-[556px] mt-[5px] border rounded-[14px]'>
+                        <input className='py-[18px] bg-white pl-[30px] rounded-[14px] text-[18px] font-normal font-main text-[#898989] w-full border-none outline-none' type="text" placeholder='Name' />
                         </div>
+
+
+                        <div className='my-[25px]'>
+
 
                         
                         <p className='text-[16px] font-normal font-main  text-black'>Email*</p>
-                        <div className='w-[556px] pt-[5px] border rounded-[14px]'>
-                        <input className='py-[18px] pl-[30px] text-[18px] font-normal font-main text-[#898989] w-[90%] border-none outline-none' type="text" placeholder='Email' />
+                        <div className='w-[556px] mt-[5px] border rounded-[14px]'>
+                        <input className='py-[18px] bg-white pl-[30px] rounded-[14px] text-[18px] font-normal font-main text-[#898989] w-full border-none outline-none' type="text" placeholder='Email' />
                         </div>
 
+                        </div>
 
 
                         <p className='text-[16px] font-normal font-main  text-black'>Message*</p>
                         <textarea className='w-[556px] border rounded-[14px] text-[18px] font-normal font-main text-[#898989]' placeholder='Message'></textarea>
                        
+                    </div>
+                       {/* ------------ button */}
+
+                       <button className='w-[556px] mt-[40px] bg-[#191A23] text-[20px] font-normal font-main text-[#fff] py-[20px] rounded-[14px]'>Send Message</button>
 
 
                         
                     
-                    </div>
 
 
 
