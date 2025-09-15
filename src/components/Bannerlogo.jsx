@@ -1,6 +1,14 @@
 import React from 'react'
-import bannerlogo from '../assets/images/Logotypes.png'
 import { Link } from 'react-router'
+
+import comLogo from '../assets/images/Company logo.png'
+import comLogo from '../assets/images/Company logo1.png'
+import comLogo from '../assets/images/Company logo2.png'
+import comLogo from '../assets/images/Company logo3.png'
+import comLogo from '../assets/images/Company logo4.png'
+import comLogo from '../assets/images/Company logo.png'
+import comLogo from '../assets/images/Company logo.png'
+
 
 const Bannerlogo = () => {
   return (
@@ -8,16 +16,13 @@ const Bannerlogo = () => {
     
     
     
-    <section id='banner-img' className='pb-[140px]'>
-      <div className='container'>
-        <div id='bannerlogo-row'>
-
-          <Link ><img src={bannerlogo} alt="banner-logo" /></Link>
+    <section id='com-logo'>
+      <div className="container">
+        <div id='com-logo-id'>
 
 
 
         </div>
-
       </div>
     </section>
     
