@@ -19,16 +19,41 @@ const Contactus = () => {
                 {/* -------------- left-side */}
 
                 <div>
-                    <div>
-                        <div>
+
+                    {/* -------------- buuton */}
+                    <div className='flex gap-[35px]'>
+                        <div className='flex gap-[14px]'> 
                             <input id='con' type="radio" />
-                            <label htmlFor="con">Say Hi</label>
+                            <label className='text-[16px] font-normal font-main text-black' htmlFor="con">Say Hi</label>
                         </div>
-                          <div>
+                          <div className='flex gap-[14px]'>
                             <input id='con' type="radio" />
-                            <label htmlFor="con">Get a Quote</label>
+                            <label className='text-[16px] font-normal font-main text-black' htmlFor="con">Get a Quote</label>
                         </div>
                     </div>
+
+                    {/* ------------- input-field */}
+
+                    <div>
+
+                        <p className='text-[16px] font-normal font-main  text-black'>Name</p>
+                        <div>
+
+                        <input type="text" />
+                        </div>
+                    
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
                 </div>
 
 
