@@ -14,14 +14,21 @@ const Footer = () => {
                 <div>
 
                     <Link to={'/'} ><img src={footerLogo} alt="footer-logo" /></Link>
+
+                    {/* ------------ footer nav-item */}
                     <div>
                         <ul>
-                            <li><Link to={'/'} >About us</Link></li>
-                            <li><Link to={'/'} >Services</Link></li>
-                            <li><Link to={'/'} >About us</Link></li>
-                            <li><Link to={'/'} >About us</Link></li>
-                            <li><Link to={'/'} >About us</Link></li>
+                            <li><Link to={'/'}  className='text-[18px] font-normal font-main text-[#fff] underline'  >About us</Link></li>
+                            <li><Link to={'/'}  className='text-[18px] font-normal font-main text-[#fff] underline'  >Services</Link></li>
+                            <li><Link to={'/'}  className='text-[18px] font-normal font-main text-[#fff] underline'  >Use Cases</Link></li>
+                            <li><Link to={'/'} className='text-[18px] font-normal font-main text-[#fff] underline'   >Pricing</Link></li>
+                            <li><Link to={'/'}  className='text-[18px] font-normal font-main text-[#fff] underline'  >Blog</Link></li>
                         </ul>
+                    </div>
+
+                    {/* ------------ footer icon */}
+                    <div>
+                        <div><Link to={'/'} ></Link></div>
                     </div>
 
 
