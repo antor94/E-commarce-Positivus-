@@ -42,8 +42,16 @@ const Footer = () => {
                     <div>
                         <div className='w-[126px] bg-[#B9FF66] px-[7px] rounded-[7px]'><h2 className='text-[20px] font-medium font-main text-[#000]'>Contact us:</h2></div>
                         <address>
-                            <div>
+                            <div className='flex gap-[5px]'>
                                 <p className='text-[18px] font-normal font-main text-[#fff]'>Email:</p>
+                                <a className='text-[18px] font-normal font-main text-[#fff]' href="">info@positivus.com</a>
+                            </div>
+                                    <div className='flex gap-[5px]'>
+                                <p className='text-[18px] font-normal font-main text-[#fff]'>Phone:</p>
+                                <p className='text-[18px] font-normal font-main text-[#fff]'>555-567-8901</p>
+                            </div>
+                                    <div className='flex gap-[5px]'>
+                                <p className='text-[18px] font-normal font-main text-[#fff]'>Address:</p>
                                 <a className='text-[18px] font-normal font-main text-[#fff]' href="">info@positivus.com</a>
                             </div>
                         </address>
