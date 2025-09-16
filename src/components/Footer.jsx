@@ -14,11 +14,11 @@ const Footer = () => {
             <div id='footer-row' className='bg-[#191A23] rounded-t'>
 
                 {/* -------------- footer-heading */}
-                <div>
+                <div className='flex justify-between pt-[55px] pb-[66px]'>
                     <Link to={'/'} ><img src={footerLogo} alt="footer-logo" /></Link>
                     {/* ------------ footer nav-item */}
                     <div>
-                        <ul>
+                        <ul className='flex gap-[40px]'>
                             <li><Link to={'/'}  className='text-[18px] font-normal font-main text-[#fff] underline'  >About us</Link></li>
                             <li><Link to={'/'}  className='text-[18px] font-normal font-main text-[#fff] underline'  >Services</Link></li>
                             <li><Link to={'/'}  className='text-[18px] font-normal font-main text-[#fff] underline'  >Use Cases</Link></li>
@@ -28,7 +28,7 @@ const Footer = () => {
                     </div>
 
                     {/* ------------ footer icon */}
-                    <div>
+                    <div className='flex gap-[20px]'>
                         <div className='w-[30px] h-[30px] rounded-full bg-white flex justify-center items-center'><Link to={'/'} ><FaLinkedinIn className='text-[15px]' /></Link></div>
                         <div className='w-[30px] h-[30px] rounded-full bg-white flex justify-center items-center'><Link to={'/'} ><ImFacebook className='text-[15px]' /></Link></div>
                         <div className='w-[30px] h-[30px] rounded-full bg-white flex justify-center items-center'><Link to={'/'} ><FaTwitter className='text-[15px]' /></Link></div>
@@ -41,6 +41,12 @@ const Footer = () => {
                     {/* --------- left side */}
                     <div>
                         <div className='w-[126px] bg-[#B9FF66] px-[7px] rounded-[7px]'><h2 className='text-[20px] font-medium font-main text-[#000]'>Contact us:</h2></div>
+                        <address>
+                            <div>
+                                <p className='text-[18px] font-normal font-main text-[#fff]'>Email:</p>
+                                <a className='text-[18px] font-normal font-main text-[#fff]' href="">info@positivus.com</a>
+                            </div>
+                        </address>
                     </div>
                 </div>
 
