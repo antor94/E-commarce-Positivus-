@@ -13,8 +13,10 @@ const Contactus = () => {
             <CommonHead commonh2={'Contact Us'} />
             <div className='w-[330px]'><CommonHead commonp={'Connect with Us: Lets Discuss Your Digital Marketing Needs'} /></div>
             </div>
-            <div id='contact-row' className='bg-[#F3F3F3] pb-[80px] rounded-[45px] flex  relative  '>
 
+            <div id='contact-row' className='bg-[#F3F3F3] pb-[80px] rounded-[45px]   '>
+
+            <div className='flex justify-between'>
                 {/* -------------- left-side */}
 
                 <div>
@@ -78,10 +80,11 @@ const Contactus = () => {
                 </div>
 
                 {/* ------------- right-img */}
-                <div className=''><img src={conImg} alt="contact_img" /></div>
+                <div className=' '><img src={conImg} alt="contact_img" /></div>
 
 
 
+            </div>
 
            </div>
         </div>
