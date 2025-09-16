@@ -1,6 +1,9 @@
 import React from 'react'
 import footerLogo from '../assets/images/footerLogo.png'
 import { Link } from 'react-router'
+import { FaLinkedinIn } from "react-icons/fa";
+import { ImFacebook } from "react-icons/im";
+import { FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -28,7 +31,9 @@ const Footer = () => {
 
                     {/* ------------ footer icon */}
                     <div>
-                        <div><Link to={'/'} ></Link></div>
+                        <div className='w-[30px] h-[30px] rounded-full bg-white flex justify-center items-center'><Link to={'/'} ><FaLinkedinIn className='text-[15px]' /></Link></div>
+                        <div className='w-[30px] h-[30px] rounded-full bg-white flex justify-center items-center'><Link to={'/'} ><ImFacebook className='text-[15px]' /></Link></div>
+                        <div className='w-[30px] h-[30px] rounded-full bg-white flex justify-center items-center'><Link to={'/'} ><FaTwitter className='text-[15px]' /></Link></div>
                     </div>
 
 
