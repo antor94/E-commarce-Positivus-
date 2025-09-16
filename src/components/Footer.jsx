@@ -15,9 +15,7 @@ const Footer = () => {
 
                 {/* -------------- footer-heading */}
                 <div>
-
                     <Link to={'/'} ><img src={footerLogo} alt="footer-logo" /></Link>
-
                     {/* ------------ footer nav-item */}
                     <div>
                         <ul>
@@ -35,9 +33,15 @@ const Footer = () => {
                         <div className='w-[30px] h-[30px] rounded-full bg-white flex justify-center items-center'><Link to={'/'} ><ImFacebook className='text-[15px]' /></Link></div>
                         <div className='w-[30px] h-[30px] rounded-full bg-white flex justify-center items-center'><Link to={'/'} ><FaTwitter className='text-[15px]' /></Link></div>
                     </div>
+                </div>
 
 
-
+                {/* --------------- contact details */}
+                <div>
+                    {/* --------- left side */}
+                    <div>
+                        <div className='w-[126px] bg-[#B9FF66] px-[7px] rounded-[7px]'><h2 className='text-[20px] font-medium font-main text-[#000]'>Contact us:</h2></div>
+                    </div>
                 </div>
 
             </div>
