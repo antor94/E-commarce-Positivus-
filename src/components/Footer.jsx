@@ -57,6 +57,11 @@ const Footer = () => {
                             </div>
                         </address>
                     </div>
+
+                    {/* --------------- right-side */}
+                    <div className='w-[634px] bg-[#292A32] rounded-[14px]'>
+
+                    </div>
                 </div>
 
             </div>
