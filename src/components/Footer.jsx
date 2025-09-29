@@ -9,12 +9,12 @@ const Footer = () => {
   return (
     <>
 
-    <section id='footer'>
+    <section id='footer' className=''>
         <div className="container">
-            <div id='footer-row' className='bg-[#191A23] rounded-t'>
+            <div id='footer-row' className='bg-[#191A23] rounded-t pt-[55px] px-[60px]'>
 
                 {/* -------------- footer-heading */}
-                <div className='flex justify-between pt-[55px] pb-[66px]'>
+                <div className='flex justify-between '>
                     <Link to={'/'} ><img src={footerLogo} alt="footer-logo" /></Link>
                     {/* ------------ footer nav-item */}
                     <div>
@@ -37,7 +37,7 @@ const Footer = () => {
 
 
                 {/* --------------- contact details */}
-                <div>
+                <div className='mt-[66px]'>
                     {/* --------- left side */}
                     <div>
                         <div className='w-[126px] bg-[#B9FF66] px-[7px] rounded-[7px]'><h2 className='text-[20px] font-medium font-main text-[#000]'>Contact us:</h2></div>
@@ -61,9 +61,10 @@ const Footer = () => {
                     {/* --------------- right-side */}
                     <div className='w-[634px] bg-[#292A32] rounded-[14px]'>
                         <div className='w-[285px] rounded-[14px] border border-[#fff]'>
-                        <input className='text-[18px] font-normal font-main text-white' placeholder='Email' type="email" />
+                        <input className='text-[18px] font-normal py-[22px] pl-[35px] font-main text-white' placeholder='Email' type="email" />
 
                         </div>
+                        <button className='w-[249px] bg-main text-[20px] font-normal font-main text-main py-[20px]' >Subscribe to news</button>
 
                     </div>
                 </div>
