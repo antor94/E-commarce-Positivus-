@@ -37,7 +37,7 @@ const Footer = () => {
 
 
                 {/* --------------- contact details */}
-                <div className='mt-[66px] flex'>
+                <div className='mt-[66px] flex justify-between'>
                     {/* --------- left side */}
                     <div>
                         <div className='w-[126px] bg-[#B9FF66] px-[7px] rounded-[7px]'><h2 className='text-[20px] font-medium font-main text-[#000]'>Contact us:</h2></div>
