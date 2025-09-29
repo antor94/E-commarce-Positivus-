@@ -9,9 +9,9 @@ const Footer = () => {
   return (
     <>
 
-    <section id='footer' className=''>
+    <section id='footer' className=' rounded-t-20'>
         <div className="container">
-            <div id='footer-row' className='bg-[#191A23] rounded-t pt-[55px] px-[60px]'>
+            <div id='footer-row' className='bg-[#191A23] rounded-t-[45px] pt-[55px] px-[60px]'>
 
                 {/* -------------- footer-heading */}
                 <div className='flex justify-between '>
@@ -37,11 +37,11 @@ const Footer = () => {
 
 
                 {/* --------------- contact details */}
-                <div className='mt-[66px]'>
+                <div className='mt-[66px] flex'>
                     {/* --------- left side */}
                     <div>
                         <div className='w-[126px] bg-[#B9FF66] px-[7px] rounded-[7px]'><h2 className='text-[20px] font-medium font-main text-[#000]'>Contact us:</h2></div>
-                        <address>
+                        <address className='mt-[27px]'>
                             <div className='flex gap-[5px]'>
                                 <h3 className='text-[18px] font-normal font-main text-[#fff]'>Email:</h3>
                                 <a className='text-[18px] font-normal font-main text-[#fff]' href="">info@positivus.com</a>
