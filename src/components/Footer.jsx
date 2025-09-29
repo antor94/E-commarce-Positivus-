@@ -60,6 +60,10 @@ const Footer = () => {
 
                     {/* --------------- right-side */}
                     <div className='w-[634px] bg-[#292A32] rounded-[14px]'>
+                        <div className='w-[285px] rounded-[14px] border border-[#fff]'>
+                        <input className='' type="text" />
+
+                        </div>
 
                     </div>
                 </div>
