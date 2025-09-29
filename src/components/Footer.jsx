@@ -9,9 +9,9 @@ const Footer = () => {
   return (
     <>
 
-    <section id='footer' className=' rounded-t-20'>
+    <section id='footer' className=' rounded-t-20 '>
         <div className="container">
-            <div id='footer-row' className='bg-[#191A23] rounded-t-[45px] pt-[55px] px-[60px]'>
+            <div id='footer-row' className='bg-[#191A23] rounded-t-[45px] pb-[178px] pt-[55px] px-[60px]'>
 
                 {/* -------------- footer-heading */}
                 <div className='flex justify-between '>
@@ -46,13 +46,13 @@ const Footer = () => {
                                 <h3 className='text-[18px] font-normal font-main text-[#fff]'>Email:</h3>
                                 <a className='text-[18px] font-normal font-main text-[#fff]' href="">info@positivus.com</a>
                             </div>
-                                    <div className='flex gap-[5px]'>
+                                    <div className='flex gap-[5px] my-[20px]'>
                                 <h3 className='text-[18px] font-normal font-main text-[#fff]'>Phone:</h3>
                                 <p className='text-[18px] font-normal font-main text-[#fff]'>555-567-8901</p>
                             </div>
-                                    <div className='flex gap-[5px]'>
+                                    <div className='w-[332px] gap-[5px]'>
                                 <h3 className='text-[18px] font-normal font-main text-[#fff]'>Address:</h3>
-                                <p className='text-[18px] font-normal font-main text-[#fff]' >1234 Main St</p>
+                                <p className=' text-[18px] font-normal font-main text-[#fff]' >1234 Main St</p>
                                 <span>Moonstone City, Stardust State 12345</span>
                             </div>
                         </address>
