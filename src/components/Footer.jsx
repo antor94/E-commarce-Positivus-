@@ -53,8 +53,9 @@ const Footer = () => {
                                     <div className='w-[332px] gap-[5px]'>
                                 <h3 className='text-[18px] font-normal font-main text-[#fff]'>Address:</h3>
                                 <p className=' text-[18px] font-normal font-main text-[#fff]' >1234 Main St</p>
-                                <span>Moonstone City, Stardust State 12345</span>
+                                <p>Moonstone City, Stardust State 12345</p>
                             </div>
+                             
                         </address>
                     </div>
 
