@@ -60,12 +60,12 @@ const Footer = () => {
                     </div>
 
                     {/* --------------- right-side */}
-                    <div className='w-[634px]  bg-[#292A32] rounded-[14px]'>
-                        <div className='flex'>
+                    <div className='w-[634px] flex justify-center items-center gap-[20px]  bg-[#292A32] rounded-[14px]'>
+                        <div className=' flex justify-center gap-[20px] items-center'>
 
                         <div className='w-[285px] rounded-[14px] border border-[#fff]'>
                         <input className='text-[18px] font-normal py-[22px] pl-[35px] font-main text-white' placeholder='Email' type="email" />  </div>
-                        <button className='w-[249px] bg-main text-[20px] font-normal font-main text-[#000] rounded-[14px] y-[20px]' >Subscribe to news</button>
+                        <button className='w-[249px] bg-main text-[20px] font-normal font-main text-[#000] rounded-[14px] py-[20px]' >Subscribe to news</button>
                         </div>
 
                     </div>
