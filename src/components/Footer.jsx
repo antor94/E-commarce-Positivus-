@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <>
 
-    <section id='footer' className=' rounded-t-20 '>
+    <section id='footer' className=' rounded-t-20  pt-[140px]'>
         <div className="container">
             <div id='footer-row' className='bg-[#191A23] rounded-t-[45px] pb-[178px] pt-[55px] px-[60px]'>
 
@@ -37,7 +37,7 @@ const Footer = () => {
 
 
                 {/* --------------- contact details */}
-                <div className='mt-[66px] flex justify-between'>
+                <div className='mt-[66px] flex justify-between gap-[154px]'>
                     {/* --------- left side */}
                     <div>
                         <div className='w-[126px] bg-[#B9FF66] px-[7px] rounded-[7px]'><h2 className='text-[20px] font-medium font-main text-[#000]'>Contact us:</h2></div>
@@ -50,17 +50,22 @@ const Footer = () => {
                                 <h3 className='text-[18px] font-normal font-main text-[#fff]'>Phone:</h3>
                                 <p className='text-[18px] font-normal font-main text-[#fff]'>555-567-8901</p>
                             </div>
-                                    <div className='w-[332px] gap-[5px]'>
-                                <h3 className='text-[18px] font-normal font-main text-[#fff]'>Address:</h3>
-                                <p className=' text-[18px] font-normal font-main text-[#fff]' >1234 Main St</p>
-                                <p>Moonstone City, Stardust State 12345</p>
+
+                            <div className='w-[332px]'>
+                                <div className='flex gap-[5px]'>
+                                    <h3 className='text-[18px] font-normal font-main text-[#fff]'>Address:</h3>
+                                    <h5 className='text-[18px] font-normal font-main text-[#fff]'>1234 Main St</h5>
+                                </div>
+                                <span className='text-[18px] font-normal font-main text-[#fff]'>Moonstone City, Stardust State 12345</span>
+
                             </div>
+                           
                              
                         </address>
                     </div>
 
                     {/* --------------- right-side */}
-                    <div className='w-[634px] flex justify-center items-center gap-[20px]  bg-[#292A32] rounded-[14px]'>
+                    <div className='w-[700px] flex justify-center items-center gap-[20px]  bg-[#292A32] rounded-[14px]'>
                         <div className=' flex justify-center gap-[20px] items-center'>
 
                         <div className='w-[285px] rounded-[14px] border border-[#fff]'>
@@ -70,7 +75,6 @@ const Footer = () => {
 
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
