@@ -14,7 +14,7 @@ const Contactus = () => {
             <div className='w-[330px]'><CommonHead commonp={'Connect with Us: Lets Discuss Your Digital Marketing Needs'} /></div>
             </div>
 
-            <div id='contact-row' className='bg-[#F3F3F3] relative pb-[80px] rounded-[45px]   '>
+            <div id='contact-row' className='bg-[#F3F3F3] relative pl-[100px] pt-[60px] pb-[80px] rounded-[45px]   '>
 
             <div className='flex justify-between'>
                 {/* -------------- left-side */}
@@ -53,7 +53,7 @@ const Contactus = () => {
                        <button className='w-[556px] mt-[40px] bg-[#191A23] text-[20px] font-normal font-main text-[#fff] py-[20px] rounded-[14px]'>Send Message</button>
                 </div>
                 {/* ------------- right-img */}
-                <div className=' absolute'><img src={conImg} alt="contact_img" /></div>
+                <div className=' absolute top-0 right-0'><img src={conImg} alt="contact_img" /></div>
             </div>
            </div>
         </div>
