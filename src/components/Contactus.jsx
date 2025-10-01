@@ -45,7 +45,7 @@ const Contactus = () => {
                         </div>
                         </div>
                         <p className='text-[16px] font-normal font-main  text-black'>Message*</p>
-                        <textarea className='w-[556px] h-[190px] bg-[#fff] border rounded-[14px] text-[18px] font-normal font-main text-[#898989]' placeholder='Message'></textarea>
+                        <textarea className='w-[556px] h-[190px] pt-[18px] px-[30px] bg-[#fff] border rounded-[14px] text-[18px] font-normal font-main text-[#898989]' placeholder='Message'></textarea>
                        
                     </div>
                        {/* ------------ button */}
