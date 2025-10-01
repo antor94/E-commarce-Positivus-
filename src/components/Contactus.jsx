@@ -14,13 +14,11 @@ const Contactus = () => {
             <div className='w-[330px]'><CommonHead commonp={'Connect with Us: Lets Discuss Your Digital Marketing Needs'} /></div>
             </div>
 
-            <div id='contact-row' className='bg-[#F3F3F3] pb-[80px] rounded-[45px]   '>
+            <div id='contact-row' className='bg-[#F3F3F3] relative pb-[80px] rounded-[45px]   '>
 
             <div className='flex justify-between'>
                 {/* -------------- left-side */}
-
                 <div>
-
                     {/* -------------- button */}
                     <div className='flex gap-[35px]'>
                         <div className='flex gap-[14px]'> 
@@ -36,7 +34,6 @@ const Contactus = () => {
                     {/* ------------- input-field */}
 
                     <div>
-
                         <p className='text-[16px] font-normal font-main  text-black'>Name</p>
                         <div className='w-[556px] mt-[5px] border rounded-[14px]'>
                         <input className='py-[18px] bg-white pl-[30px] rounded-[14px] text-[18px] font-normal font-main text-[#898989] w-full border-none outline-none' type="text" placeholder='Name' />
@@ -55,14 +52,9 @@ const Contactus = () => {
 
                        <button className='w-[556px] mt-[40px] bg-[#191A23] text-[20px] font-normal font-main text-[#fff] py-[20px] rounded-[14px]'>Send Message</button>
                 </div>
-
                 {/* ------------- right-img */}
-                <div className=' '><img src={conImg} alt="contact_img" /></div>
-
-
-
+                <div className=' absolute'><img src={conImg} alt="contact_img" /></div>
             </div>
-
            </div>
         </div>
     </section>
