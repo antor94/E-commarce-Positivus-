@@ -33,7 +33,7 @@ const Contactus = () => {
 
                     {/* ------------- input-field */}
 
-                    <div>
+                    <div className='mt-[40px]'>
                         <p className='text-[16px] font-normal font-main  text-black'>Name</p>
                         <div className='w-[556px] mt-[5px] border rounded-[14px]'>
                         <input className='py-[18px] bg-white pl-[30px] rounded-[14px] text-[18px] font-normal font-main text-[#898989] w-full border-none outline-none' type="text" placeholder='Name' />
@@ -45,7 +45,7 @@ const Contactus = () => {
                         </div>
                         </div>
                         <p className='text-[16px] font-normal font-main  text-black'>Message*</p>
-                        <textarea className='w-[556px] border rounded-[14px] text-[18px] font-normal font-main text-[#898989]' placeholder='Message'></textarea>
+                        <textarea className='w-[556px] h-[190px] bg-[#fff] border rounded-[14px] text-[18px] font-normal font-main text-[#898989]' placeholder='Message'></textarea>
                        
                     </div>
                        {/* ------------ button */}
