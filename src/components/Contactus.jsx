@@ -53,7 +53,7 @@ const Contactus = () => {
                        <button className='w-[556px] mt-[40px] bg-[#191A23] text-[20px] font-normal font-main text-[#fff] py-[20px] rounded-[14px]'>Send Message</button>
                 </div>
                 {/* ------------- right-img */}
-                <div className=' absolute top-0 right-0'><img src={conImg} alt="contact_img" /></div>
+                <div className=' absolute top-[64px] right-[-325px]'><img src={conImg} alt="contact_img" /></div>
             </div>
            </div>
         </div>
