@@ -5,9 +5,9 @@ const Happen = () => {
   return (
     <>
     
-    <section id='happen' className='py-[23px]'>
+    <section id='happen' className=' pt-[100px] pb-[163px]'>
         <div className="container">
-            <div id='happen-row' className=' rounded-[45px] bg-[#F3F3F3] flex justify-center gap-[186px] '>
+            <div id='happen-row' className=' rounded-[45px] bg-[#F3F3F3] flex justify-center gap-[186px] items-center '>
                 <div className=''>
 
                 <div><h2 className='text-[30px] font-medium font-main text-[#000]'>Let’s make things happen</h2></div>
