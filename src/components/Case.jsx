@@ -8,10 +8,10 @@ const Case = () => {
 
 
 
-    <section id='case'>
+    <section id='case' className='pb-[140px]'>
         <div className="container">   
             <CommonHead commonh2={'Case Studies'} commonp={'Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies'} />        
-            <div id='case-id' className='bg-[#191A23] pt-[70px] px-[60px] pb-[93px] flex justify-between '>
+            <div id='case-id' className='bg-[#191A23] rounded-[45px] mt-[80px] pt-[70px] px-[60px] pb-[93px] flex justify-between '>
 
 
 
