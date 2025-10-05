@@ -17,7 +17,7 @@ const Case = () => {
 <div className='w-[286px] h-[163px]'>
     <div className='w-full'><p className='text-[18px] font-normal font-main text-[#fff]'> For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.</p></div>
 
-    <div><Link to={'/'} >Learn more</Link></div>
+    <div><Link to={'/'} className='text-[20px] font-normal font-main text-[#B9FF66]' >Learn more</Link></div>
 
 </div>
 
