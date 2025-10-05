@@ -1,4 +1,5 @@
 import React from 'react'
+import CommonHead from './common/CommonHead'
 
 const Case = () => {
   return (
@@ -7,11 +8,15 @@ const Case = () => {
 
 
     <section id='case'>
-        <div className="container">           
+        <div className="container">   
+            <CommonHead commonh2={'Case Studies'} commonp={'Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies'} />        
             <div id='case-id' className='bg-[#191A23]'>
 
 
+<div className='w-[286px] h-[163px]'>
+    <div className='w-full'><p>For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.</p></div>
 
+</div>
 
 
 
