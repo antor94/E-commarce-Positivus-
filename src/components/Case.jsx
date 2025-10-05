@@ -11,7 +11,7 @@ const Case = () => {
     <section id='case'>
         <div className="container">   
             <CommonHead commonh2={'Case Studies'} commonp={'Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies'} />        
-            <div id='case-id' className='bg-[#191A23] pt-[70px] pb-[93px] flex justify-between '>
+            <div id='case-id' className='bg-[#191A23] pt-[70px] px-[60px] pb-[93px] flex justify-between '>
 
 
 
@@ -23,7 +23,7 @@ const Case = () => {
 
 </div>
 
-<span className=' inline-block'></span>
+<span className=' inline-block w-[1px] h-[186px] bg-white text-white'></span>
 
 <div className='w-[286px] h-[163px]'>
     <div className='w-full'><p className='text-[18px] font-normal font-main text-[#fff]'>For a B2B software company, we developed an SEO strategy that resulted in a first page ranking for key keywords and a 200% increase in organic traffic.</p></div>
@@ -31,6 +31,9 @@ const Case = () => {
     <div><Link to={'/'} className='text-[20px] font-normal font-main text-[#B9FF66]' >Learn more</Link></div>
 
 </div>
+
+<span className=' inline-block w-[1px] h-[186px] bg-white text-white'></span>
+
 
 <div className='w-[286px] h-[138px]'>
     <div className='w-full'><p className='text-[18px] font-normal font-main text-[#fff]'> For a national retail chain, we created a social media marketing campaign that increased followers by 25% and generated a 20% increase in online sales.</p></div>
