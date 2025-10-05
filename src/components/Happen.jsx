@@ -7,7 +7,7 @@ const Happen = () => {
     
     <section id='happen' className='py-[23px]'>
         <div className="container">
-            <div id='happen-row' className=' rounded-[45px] bg-[#F3F3F3] flex pl-[60px] relative py-[60px] items-center'>
+            <div id='happen-row' className=' rounded-[45px] bg-[#F3F3F3] '>
                 <div className=' relative'>
 
                 <div><h2 className='text-[30px] font-medium font-main text-[#000]'>Let’s make things happen</h2></div>
@@ -17,7 +17,7 @@ const Happen = () => {
                 </div>
 {/* -------------------- happen-img */}
             </div>
-<div className=' absolute top-[1007px] right-[372px]'><img className='w-[359px] ' src={happenlogo} alt="" /></div>
+<div className=''><img className='w-[359px] ' src={happenlogo} alt="" /></div>
                
 
         </div>
