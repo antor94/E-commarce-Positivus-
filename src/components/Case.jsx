@@ -11,10 +11,9 @@ const Case = () => {
     <section id='case'>
         <div className="container">   
             <CommonHead commonh2={'Case Studies'} commonp={'Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies'} />        
-            <div id='case-id' className='bg-[#191A23] flex '>
+            <div id='case-id' className='bg-[#191A23] pt-[70px] pb-[93px] flex justify-between '>
 
 
-<div className='pt-[70px] pb-[93px]'>
 
 
 <div  className='w-[286px] h-[163px]'>
@@ -24,6 +23,7 @@ const Case = () => {
 
 </div>
 
+<span className=' inline-block'></span>
 
 <div className='w-[286px] h-[163px]'>
     <div className='w-full'><p className='text-[18px] font-normal font-main text-[#fff]'>For a B2B software company, we developed an SEO strategy that resulted in a first page ranking for key keywords and a 200% increase in organic traffic.</p></div>
@@ -39,7 +39,7 @@ const Case = () => {
 
 </div>
 
-</div>
+
 
 
 
