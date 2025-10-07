@@ -26,9 +26,7 @@ const Services = () => {
 
               {/* ------------- left-side */}
               <div>
-
-
-              <div><p>Search engine <br /> optimization</p></div>
+              <div><p className="text-[30px] font-medium font-main text-[#000] bg-main ">Search engine <br /> optimization</p></div>
 
               <Link to={'/'}>
 
