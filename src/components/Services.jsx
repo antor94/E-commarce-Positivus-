@@ -19,7 +19,26 @@ const Services = () => {
 
           <div id="ser-col-1">
 
-            <div className="w-[600px] h-[310px] bg-[#F3F3F3]"> </div>
+            <div className="w-[600px] h-[310px] bg-[#F3F3F3]">
+              
+
+              {/* ------------- left-side */}
+
+              <div><p>Search engine <br /> optimization</p></div>
+
+              <div>
+
+                <div className="w-[41px] h-[41px] bg-[#191A23]"> </div>
+
+
+              </div>
+               
+               
+               
+               
+               
+               
+                </div>
 
 
 
