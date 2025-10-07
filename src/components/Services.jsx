@@ -1,6 +1,7 @@
 import React from "react";
 import CommonHead from "./common/CommonHead";
 import { Link } from "react-router";
+import serviceImg from '../assets/images/servicepng1.png'
 
 const Services = () => {
   return (
@@ -24,6 +25,8 @@ const Services = () => {
               
 
               {/* ------------- left-side */}
+              <div>
+
 
               <div><p>Search engine <br /> optimization</p></div>
 
@@ -36,6 +39,17 @@ const Services = () => {
 
               </Link>
                
+              </div>
+
+{/* ----------------- right side  */}
+              <div>
+                <img src={serviceImg} alt="service-img" />
+
+
+
+
+
+                </div>
                
                
                
