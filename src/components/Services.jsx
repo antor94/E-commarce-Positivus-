@@ -1,5 +1,6 @@
 import React from "react";
 import CommonHead from "./common/CommonHead";
+import { Link } from "react-router";
 
 const Services = () => {
   return (
@@ -26,12 +27,14 @@ const Services = () => {
 
               <div><p>Search engine <br /> optimization</p></div>
 
-              <div>
+              <Link to={'/'}>
 
-                <div className="w-[41px] h-[41px] bg-[#191A23]"> </div>
+                <div className="w-[41px] h-[41px] bg-[#191A23] rounded-full"> </div>
+                Learn more
 
 
-              </div>
+
+              </Link>
                
                
                
