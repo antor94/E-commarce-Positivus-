@@ -10,7 +10,7 @@ const Services = () => {
     <>
       <section id="services">
         <div className="container">
-          <div id="" className="flex gap-[40px] items-center">
+          <div id="" className="flex gap-[40px] mb-[80px] items-center">
             <CommonHead commonh2={"Services"} />
             <div className="w-[667px]">
               <CommonHead
@@ -26,7 +26,7 @@ const Services = () => {
 
           <div id="ser-col-1" className="flex">
 
-            <div className="w-[600px] h-[310px] flex gap-[70px] items-center p-[50px] rounded-[45px] bg-[#F3F3F3]">
+            <div className="w-[600px] h-[310px] flex gap-[70px] items-center p-[50px] rounded-[45px] border-b-4 bg-[#F3F3F3]">
               
 
               {/* ------------- left-side */}
