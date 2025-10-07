@@ -27,10 +27,11 @@ const Services = () => {
               
 
               {/* ------------- left-side */}
-              <div className="flex items-center">
+              <div className="">
               <div className="w-[221px]"><p className="text-[30px] font-medium font-main text-[#000] bg-main ">Search engine <br /> <span className="w-[100px]">optimization</span> </p></div>
 
-              <Link to={'/'} className="text-[20px] font-normal font-main text-black">
+
+              <Link to={'/'} className="text-[20px] font-normal flex items-center gap-[15px] font-main text-black">
 
                 <div className="w-[41px] h-[41px] bg-[#191A23] rounded-full flex justify-center items-center"><MdArrowOutward className="text-white" /> </div>
                 Learn more
@@ -39,6 +40,7 @@ const Services = () => {
 
               </Link>
                
+
               </div>
 
 {/* ----------------- right side  */}
