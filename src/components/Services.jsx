@@ -26,7 +26,7 @@ const Services = () => {
 
           <div id="ser-col-1" className="flex">
 
-            <div className="w-[600px] h-[310px] flex gap-[70px] items-center p-[50px] bg-[#F3F3F3]">
+            <div className="w-[600px] h-[310px] flex gap-[70px] items-center p-[50px] rounded-[45px] bg-[#F3F3F3]">
               
 
               {/* ------------- left-side */}
@@ -36,7 +36,7 @@ const Services = () => {
 
               <Link to={'/'} className="text-[20px] font-normal flex items-center gap-[15px] font-main text-black">
 
-                <div className="w-[41px] h-[41px] bg-[#191A23] rounded-full flex justify-center items-center"><MdArrowOutward className="text-white" /> </div>
+                <div className="w-[41px] h-[41px] bg-[#191A23] rounded-full flex justify-center items-center"><MdArrowOutward className="text-main" /> </div>
                 Learn more
 
 
