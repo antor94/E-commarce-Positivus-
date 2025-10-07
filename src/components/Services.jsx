@@ -15,20 +15,27 @@ const Services = () => {
                 }
               />
             </div>
+          </div>
 
-            
+          <div id="ser-col-1">
 
-
-
-
-
-
-
-
+            <div className="w-[600px] h-[310px] bg-[#F3F3F3]"> </div>
 
 
 
           </div>
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
       </section>
     </>
