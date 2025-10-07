@@ -2,6 +2,8 @@ import React from "react";
 import CommonHead from "./common/CommonHead";
 import { Link } from "react-router";
 import serviceImg from '../assets/images/servicepng1.png'
+import { MdArrowOutward } from "react-icons/md";
+
 
 const Services = () => {
   return (
@@ -25,12 +27,12 @@ const Services = () => {
               
 
               {/* ------------- left-side */}
-              <div>
-              <div><p className="text-[30px] font-medium font-main text-[#000] bg-main ">Search engine <br /> optimization</p></div>
+              <div className="flex items-center">
+              <div className="w-[221px]"><p className="text-[30px] font-medium font-main text-[#000] bg-main ">Search engine <br /> <span className="w-[100px]">optimization</span> </p></div>
 
-              <Link to={'/'}>
+              <Link to={'/'} className="text-[20px] font-normal font-main text-black">
 
-                <div className="w-[41px] h-[41px] bg-[#191A23] rounded-full"> </div>
+                <div className="w-[41px] h-[41px] bg-[#191A23] rounded-full flex justify-center items-center"><MdArrowOutward className="text-white" /> </div>
                 Learn more
 
 
